@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #b5b3cc, #c4c2d6);
+}
+h1{
+    font-size: 109px;
+    text-align: center;
+    text-transform: uppercase;
+    background:linear-gradient(90deg , #000 , #fff , rgb(57, 55, 55)) ;
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: parsa 5s linear infinite;
+    position: relative;
+}
+@keyframes parsa{
+    0%{
+        background-position-x: -500%;
+    }
+    100%{
+        background-position-x: 500%;
+    }
+}
+
+
+
+
+
+
+
